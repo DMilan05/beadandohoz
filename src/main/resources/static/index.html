@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University System - Exam Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>University System - Exam Management</h1>
+
+    <!-- Create Exam Section -->
+    <section class="form-section">
+        <h2>Create Exam</h2>
+        <form id="createExamForm">
+            <input type="text" id="createExamName" placeholder="Enter exam name" required>
+            <button type="submit">Create Exam</button>
+        </form>
+        <p id="createExamResult" class="result-message"></p>
+    </section>
+
+    <!-- Delete Exam Section -->
+    <section class="form-section">
+        <h2>Delete Exam</h2>
+        <form id="deleteExamForm">
+            <input type="text" id="deleteExamName" placeholder="Enter exam name" required>
+            <button type="submit">Delete Exam</button>
+        </form>
+        <p id="deleteExamResult" class="result-message"></p>
+    </section>
+
+    <!-- Register for Exam Section -->
+    <section class="form-section">
+        <h2>Register for Exam</h2>
+        <form id="registerExamForm">
+            <input type="text" id="registerExamName" placeholder="Enter exam name" required>
+            <button type="submit">Register for Exam</button>
+        </form>
+        <p id="registerExamResult" class="result-message"></p>
+    </section>
+
+    <!-- Quit Exam Section -->
+    <section class="form-section">
+        <h2>Quit Exam</h2>
+        <form id="quitExamForm">
+            <input type="text" id="quitExamName" placeholder="Enter exam name" required>
+            <button type="submit">Quit Exam</button>
+        </form>
+        <p id="quitExamResult" class="result-message"></p>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 package org.example.stakeholders;
 
-public abstract class User {
+public class User {
     protected String name;
 
     public User(String name) {
